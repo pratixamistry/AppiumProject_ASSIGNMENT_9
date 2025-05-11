@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mvn.General_Store">
+      <class name="com.mvn.API_PROJECT">
         <methods>
           <include name="before"/>
-          <include name="after"/>
           <include name="name"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- com.mvn.General_Store -->
+      </class> <!-- com.mvn.API_PROJECT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

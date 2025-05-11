@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumBy;
 
-public class APIdemo extends BaseTest {
+public class APIdemo_Scroll extends baseTest_Virtual {
 	
 	@Test
 	public void scroll() throws InterruptedException {
